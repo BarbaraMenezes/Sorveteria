@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		a { 
+			text-decoration:none;
+		}
+		a.h{
+			font-size: 20px;
+			font-family: Century;
+			font-weight: bold;color:black;
+		}
+		a.h:hover { 
+			color:#FFC125; 
+		}
+	</style>
+	<title>Sabor Creme</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="Bárbara">
+	<link href="../CSS/estilo_sabores.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<img src="../IMAGEM/borda2.png"width="433px" height="120px" align="left" padding: 20px;>
+	<img src="../IMAGEM/borda2.png"width="450px" height="120px" align="center"padding: 20px;>
+	<img src="../IMAGEM/borda2.png"width="450px" height="120px" align="right"padding: 20px;>
+
+	<p><img src="https://img.icons8.com/material-rounded/48/000000/home.png" height="20px"><a class="h" href="../Home.html"> Home</a></p>
+	<h1 align="center">SORVETE DE CREME</h1>
+
+	<img src="../IMAGEM/creme.png" align="right" >
+
+	<h2>História do Creme</h2>
+
+	<p>O gênio criador desse sabor, Bernardo Buontalenti, ou seu nome de batismo Bernardo delle Girandole. Viveu nos anos de 1531 a 1608, considerado esse o período áureo do gelato.
+
+		Buontalenti era cenógrafo, arquiteto, paisagista, pintor, escultor, engenheiro militar e apaixonado pela arte de cozinhar. Ingressou ainda jovem no serviço dos Médici onde permaneceu por toda sua vida, sendo responsável pela realização dos mais suntuosos banquetes dos Médici de Florença.
+
+		Um de seus banquetes mais famosos, foi realizado provavelmente no dia 05 de outubro de 1600, no “Salão de Cinquecento” do “Palazzo Vechio( Palácio Velho)”, sendo servidos 25 pratos frios e 30 pratos quentes, e um dos pratos foi a criação do Mestre do Gelato conhecido então como “Crema Fiorentina” ou atualmente “gelato Buontalenti”, uma mistura de leite, mel e gema de ovos (dizem que com um toque de vinho).
+	</p>
+
+	<p>Bernardo foi ícone da cultura Florentina, sendo considerado um dos nomes mais importantes do Maneirismo. Estudou escultura com Michelangelo, pintura com Salviati e Bronzino, iluminura com Giulio Clovio e Arquitetura com Vasari tendo construído sua primeira obra e uma das mais importantes o Palazzo di Bianca Cappello em Florença em 1568 e fortificações como a Planta urbana de Livorno, Belvedere, o paisagismo do Parco de Pratolino e do Giardino de Boboli e a decoração do Palácio Pitti.
+
+	Participou da criação das muralhas nas cidades de Pistoia, Grosseto, Prato, Portoferraio e Nápoles.</p>
+
+	<p>Bernardo Buontalenti deixou sua marca registrada no mundo através da cozinha por ter sido o inventor do gelato de Creme, até hoje o mais consumido por italianos, florentinos e todo o mundo, além de ser pioneiro na invenção das máquinas para mistura de ingredientes na cozinha a uma temperatura quase congelante, tornando a especiaria original dando assim nome ao específico “Gelato Italiano”.
+
+		Em 1979 em ocasião de um concurso realizado para recordar suas obras, a Gelateria Badiani de Florença, venceu o concurso apresentando a obra original de Buontalenti, o “Crema Fiorentina” e registrou a receita. Se você estiver pensando em visitar Florença, não pode deixar de ir a Pasticceria Badiani e provar o original Gelato Buontalenti, sabor que pode ser encontrado nos supermercados italianos com o nome de Salizione Siviero Maria e Pasticceria Badiani, como Gelato Buontalenti, para nós o delicioso sorvete de creme.
+
+
+		<br><a href="https://www.solaretto.com.br/a-verdadeira-historia-do-sorvete-de-creme">Fonte<font face="Arial">:</font>Creme</a>
+
+	</p>
+
+	<h2>Escolha seu Produto<font face="Arial">:</font></h2>
+
+	<table border="2" >
+		<tr>
+			<td>
+				<h4 align="center">Produto</h4>
+			</td>
+			<td>
+				<h4 align="center">Valor</h4>
+			</td>
+			<td>
+				<h4 align="center">Quantidade</h4>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="../IMAGEM/creme1.jpg" width="200px" height="150px" align="left" >
+			</td>
+			<td>
+				R$15,00
+			</td>
+			<td>
+				<input type="number" id="creme1" name="quantidadecr1" min="0" max="20" value="0">   
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="../IMAGEM/creme2.jpg" width="200px" height="200px" align="left" >
+			</td>
+			<td>
+				R$25,00
+			</td>
+			<td>
+				<input type="number" id="creme2" name="quantidadecr2" min="0" max="20" value="0">   
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="../IMAGEM/creme3.jpg" width="200px" height="300px" align="left" >
+			</td>
+			<td>
+				R$5,00
+			</td>
+			<td>
+				<input type="number" id="creme3" name="quantidadecr3" min="0" max="20" value="0">   
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="../IMAGEM/creme4.jpeg" width="200px" height="150px" align="left" >
+			</td>
+			<td>
+				R$3,00
+			</td>
+			<td>
+				<input type="number" id="creme4" name="quantidadecr4" min="0" max="20" value="0">   
+			</td>
+		</tr>
+		<tr>
+			<script src="../JAVASCRIPT/funcoes.js"></script>
+			<td>
+				<input type="button" onclick="somaCreme()" value="Simular">
+			</td>
+			<td colspan="2">
+				<input type="text"  id="tela" value=" " />
+			</td>
+		</tr>
+	</table>
+	<br>
+	<p ><img src="https://img.icons8.com/material-rounded/48/000000/home.png" height="20px"><a class="h" href="../Home.html"> Home</a></p>
+	<br>
+
+	<img src="../IMAGEM/borda3.png"width="433px" height="120px" align="left" padding: 20px;>
+	<img src="../IMAGEM/borda3.png"width="450px" height="120px" align="center"padding: 20px;>
+	<img src="../IMAGEM/borda3.png"width="450px" height="120px" align="right"padding: 20px;>
+
+</body>
+</html>

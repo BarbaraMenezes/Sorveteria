@@ -1,0 +1,46 @@
+body{
+	background-color:#FFDAB9;
+}
+p{
+	font-size: 16px;line-height: 1.6em;
+	text-align:justify;
+	font-family: Century;
+}
+
+h1{
+	opacity: 0.8;
+	font-size: 40px;line-height: 1.6em;
+	text-align:center;	
+	font-family: Century;
+}
+
+h2{
+	opacity: 0.8;
+	font-size: 20px;line-height: 1.6em;
+	font-family: Century;
+}
+
+
+table, th, td {
+border: 2px solid #D2691E;
+}
+
+table {
+border-collapse: collapse;
+margin: auto;
+}
+
+th, td{
+padding: 10px;
+text-align: center;
+width: 120px;
+}
+
+th{
+font-weight: bold;
+}
+
+tr:hover:nth-child(1n + 2) {
+background-color: #F0F8FF;
+color:#000000;
+}

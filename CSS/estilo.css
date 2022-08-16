@@ -1,0 +1,30 @@
+body{
+	background-color:#FFDAB9;
+}
+
+p,li{
+	font-size: 16px;line-height: 1.6em;
+	text-align:justify;
+	font-family: Century;
+}
+
+h1{
+	opacity: 0.8;
+	font-size: 40px;line-height: 1.6em;
+	text-align:center;	
+	font-family: Century;
+}
+
+h2{
+	opacity: 0.8;
+	font-size: 20px;line-height: 1.6em;
+	font-family: Century;
+}
+ul{
+	list-style: none;
+}
+.item{
+	padding: 5px 10px;
+	height: 12px;
+	list-style-image:url(https://img.icons8.com/color/48/000000/ice-cream-bowl.png  );
+}
